@@ -29,8 +29,6 @@ Installer le projet en local (sur votre PC) -->
  
 - Accéder au site --> 
   - sur chrome taper "localhost/projetgroupe"
-
-- Modifier le site --> 
-  - Se crée un comtpe en local
-    - sur chrome taper "localhost/projetgroupe/wp-signup"
-    - m'envoyer votre adresse mail ou pseudo pour que je vous ajoute en tant qu'utilisateur pour pouvoir modifier le site
+  
+- Se connecter au site
+  - localhost/projetgroupe/wp-login
