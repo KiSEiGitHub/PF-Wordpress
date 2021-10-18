@@ -29,6 +29,10 @@ Installer le projet en local (sur votre PC) -->
  
 - Accéder au site --> 
   - sur chrome taper "localhost/projetgroupe"
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> origin/Tom
 - Se connecter au site
   - localhost/projetgroupe/wp-login
