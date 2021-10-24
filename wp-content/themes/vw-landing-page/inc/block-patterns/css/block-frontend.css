@@ -1,0 +1,53 @@
+/*----- Banner Section -----*/
+.banner-section, .features-section, .about-section{
+  width: auto;
+  height: auto;
+}
+.banner-box{
+  border-left: solid 5px;
+  border-image: linear-gradient(to bottom, #de40bb, #feb75b ) 1 100%;
+}
+.banner-box .wp-block-button__link, .about-section .wp-block-button__link{
+  padding: 15px 30px;
+  font-size: 15px;
+}
+/*----- Features section -----*/
+.features-section p{
+  letter-spacing: 0.5px;
+  text-align: left !important;
+}
+
+/*---- About Section -----*/
+.about-section h3:after{
+  content: "";
+  width: 10%;
+  background: linear-gradient(to left, #de40bb, #feb75b );
+  display: block;
+  height: 5px;
+  margin-top: 12px;
+  border-radius: 30px;
+}
+
+/*----- Media CSS -----*/
+@media screen and (max-width: 768px) and (min-width: 576px){
+  .banner-section .banner-box {
+    flex-basis: 100% !important;
+  }
+  .features-section .feature-box{
+    flex-basis: 30.33% !important;
+  }
+  .features-section .feature-box:nth-child(2n){
+    margin: 0 20px;
+  }
+  .about-section h3:after{
+    width: 15%;
+  }
+}
+@media screen and (max-width: 575px){
+  .banner-section .banner-box p{
+    display: none;
+  }
+  .banner-section .banner-box h1{
+    font-size: 30px !important;
+  }
+}
