@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projet Site Web" company="Team 7" webLink="http://" view-date="2021-10-16" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet Site Web" company="Team 7" webLink="http://" view-date="2021-10-16" view-index="0" gantt-divider-location="1" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
     <description/>
     <view zooming-state="default:0" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="167" order="0"/>
-        <field id="tpd4" name="Date de début" width="65" order="1"/>
-        <field id="tpd5" name="Date de fin" width="64" order="2"/>
+        <field id="tpd3" name="Nom" width="15" order="0"/>
+        <field id="tpd4" name="Date de début" width="15" order="1"/>
+        <field id="tpd5" name="Date de fin" width="15" order="2"/>
         <option id="taskLabelDown" value="name"/>
         <option id="taskLabelRight" value="length"/>
         <option id="color.recent">
