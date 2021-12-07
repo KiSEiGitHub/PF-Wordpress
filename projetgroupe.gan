@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet Site Web" company="Team 7" webLink="http://" view-date="2021-10-16" view-index="0" gantt-divider-location="1" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="15" order="0"/>
+        <field id="tpd4" name="Date de début" width="15" order="1"/>
+        <field id="tpd5" name="Date de fin" width="15" order="2"/>
+        <option id="taskLabelDown" value="name"/>
+        <option id="taskLabelRight" value="length"/>
+        <option id="color.recent">
+            <![CDATA[#33ff00 #ffff66 #ffff33 #0033ff #ff0000 #ff0000 #99ffff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="1" tue="1" wed="1" thu="1" fri="1" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="2" name="Création du Word Press avec Wamp" color="#8cb6ce" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2021-10-18" duration="2" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="Création du Trello + ajout des différentes taches" color="#8cb6ce" meeting="false" start="2021-10-20" duration="1" complete="0" thirdDate="2021-10-05" thirdDate-constraint="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" name="Paragraphe Ecole" color="#ffff66" meeting="false" start="2021-10-21" duration="1" complete="0" thirdDate="2021-10-16" thirdDate-constraint="0" expand="true">
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="32" name="Paragraphe Cours" color="#ffff66" meeting="false" start="2021-10-22" duration="2" complete="0" thirdDate="2021-10-16" thirdDate-constraint="0" expand="true">
+            <depend id="36" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="36" name="Gant Project" color="#ffff66" meeting="false" start="2021-10-24" duration="2" complete="0" thirdDate="2021-10-16" thirdDate-constraint="0" expand="true">
+            <depend id="37" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="37" name="PowerPoint" color="#ffff66" meeting="false" start="2021-10-26" duration="1" complete="0" thirdDate="2021-10-16" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Menu" color="#33ff00" meeting="false" start="2021-10-21" duration="1" complete="0" thirdDate="2021-10-08" thirdDate-constraint="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" name="Design du site" color="#33ff00" meeting="false" start="2021-10-22" duration="1" complete="0" thirdDate="2021-10-08" thirdDate-constraint="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="Maquette" color="#33ff00" meeting="false" start="2021-10-23" duration="1" complete="0" thirdDate="2021-10-08" thirdDate-constraint="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" name="Page accueil + cv + contact + compétence en %" color="#33ff00" meeting="false" start="2021-10-24" duration="3" complete="0" thirdDate="2021-10-08" thirdDate-constraint="0" expand="true">
+            <depend id="42" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="42" name="PowerPoint" color="#33ff00" meeting="false" start="2021-10-27" duration="1" complete="0" thirdDate="2021-10-16" thirdDate-constraint="0" expand="true">
+            <depend id="55" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="55" name="Hebergement+ Formulaire" color="#33ff00" meeting="false" start="2021-10-28" duration="1" complete="0" thirdDate="2021-10-16" thirdDate-constraint="0" expand="true"/>
+        <task id="19" name="Paragraphe BTS" color="#0033ff" meeting="false" start="2021-10-21" duration="1" complete="0" thirdDate="2021-10-16" thirdDate-constraint="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" name="Design du site" color="#0033ff" meeting="false" start="2021-10-22" duration="2" complete="0" thirdDate="2021-10-16" thirdDate-constraint="0" expand="true">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="23" name="Paragraphe Entreprise" color="#0033ff" meeting="false" start="2021-10-24" duration="1" complete="0" thirdDate="2021-10-16" thirdDate-constraint="0" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" name="PowerPoint" color="#0033ff" meeting="false" start="2021-10-25" duration="1" complete="0" thirdDate="2021-10-16" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="Chef de Projet (Tom)"/>
+        <role id="2" name="Dévelopeur Salim"/>
+        <role id="3" name="Développeur Clara"/>
+    </roles>
+</project>
